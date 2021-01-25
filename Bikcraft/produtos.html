@@ -3,12 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Bikcraft - Produtos</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/grid.css">
+        <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft.
+        Possuímos modelos Passeio, Retro e Esporte.">
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas"/>
+        <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft.
+        Possuímos modelos Passeio, Retro e Esporte."/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon"  href="favicon.ico">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/produtos.css">
-        <link rel="stylesheet" href="css/responsivo.css">
         <script>document.documentElement.classList.add("js");</script>
     </head>
 
@@ -43,7 +48,7 @@
             </div>
 
             <div class="grid-5 produto_icone">
-                <img src="img/produtos/passeio.svg">
+                <img src="img/produtos/passeio.svg" alt="Bikcraft Passeio">
             </div>
 
             <div class="grid-8">
@@ -70,7 +75,7 @@
             </div>
 
             <div class="grid-5 produto_icone">
-                <img src="img/produtos/esporte.svg">
+                <img src="img/produtos/esporte.svg" alt="Bikcraft Esporte">
             </div>
 
             <div class="grid-8">
@@ -97,7 +102,7 @@
             </div>
 
             <div class="grid-5 produto_icone">
-                <img src="img/produtos/retro.svg">
+                <img src="img/produtos/retro.svg" alt="Bikcraft Retro">
             </div>
 
             <div class="grid-8">
@@ -127,11 +132,10 @@
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" required>
                     <label for="telefone">Telefone</label>
-                    <label for="" class="nao-aparece">Se você não é um robo, deixe em branco.</label>
-                    <input type="text" class="nao-aparece" name="leaveblank">
-                    <label for="" class="nao-aparece">Se você não é um robo, não mude este campo.</label>
-                    <input type="text" class="nao-aparece" name="dontchange" value="http://">
-                    
+                    <label for="deixe-branco" class="nao-aparece">Se você não é um robo, deixe em branco.</label>
+                    <input type="text" id="deixe-branco" class="nao-aparece" name="leaveblank">
+                    <label for="nao-mude" class="nao-aparece">Se você não é um robo, não mude este campo.</label>
+                    <input type="text" id="nao-mude" class="nao-aparece" name="dontchange" value="http://">
                     <input type="text" id="telefone" name="telefone">
                     <label for="mensagem">Especificações</label>
                     <textarea id="mensagem" name="mensagem" required></textarea>
@@ -155,12 +159,12 @@
             </div>
         </section>
 
-        <section class="quebra">
+        <div class="quebra">
             <blockquote class="quote-externo container">
                 <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"</p>
                 <cite>WILLIAM MORRIS</cite>
             </blockquote>
-        </section>
+        </div>
 
         <footer>
             <div class="footer">
